@@ -30,5 +30,7 @@ go.work
 
 test/dist
 build
-bin/krsync
+
 .vscode/
+
+bin/*

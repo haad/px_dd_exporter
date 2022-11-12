@@ -8,7 +8,7 @@ SRC = $(shell find . -type f -name '*.go' -not -path "./vendor/*")
 build:
 	@echo "Building px_dd_exporter..."
 	@mkdir -p bin
-	@go build -ldflags "-X cmd.GitSHA=${GIT_SHA}" -o bin/krsync .
+	@go build -ldflags "-X cmd.GitSHA=${GIT_SHA}" -o bin/px_dd_exporter .
 
 install:
 	@echo "Installing px_dd_exporter..."
