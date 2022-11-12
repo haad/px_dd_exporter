@@ -1,4 +1,4 @@
-module github.com/haad/px_dd_expoter
+module github.com/haad/px_dd_exporter
 
 go 1.18
 
